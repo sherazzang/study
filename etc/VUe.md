@@ -46,12 +46,11 @@ npm run build
 
 ### vue UI 
 VUE CLI용 새로운 시각적 애플리케이션인 Vue UI를 사용해서 설치 가능함
-
-
 ```
 vue ui
  Vue 사용자 인터페이스가 시작되고 브라우저에서 새 창 열림. 
 ```
+
 
 ###  플러그인
 ```
@@ -60,3 +59,6 @@ vue add router
 vue add vuex (중앙집중방식의 데이터 처리 및 공유를 위한 플러그인
 vue add axios   (데이터 로딩 및 업로드 처리 플러그인)
 ```
+
+
+### 폴더구조
