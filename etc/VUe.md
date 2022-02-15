@@ -62,3 +62,22 @@ vue add axios   (데이터 로딩 및 업로드 처리 플러그인)
 
 
 ### 폴더구조
+```
+├── dist // 빌드시 최후로 생성되는 디렉토리
+│   ├── css
+│   ├── img
+│   └──  js
+├── public
+│   └── index.html -->  HTML 시작 페이지
+├── src
+│   ├── assets --> 공용 css 파일이나 이미지
+│   ├── components --> 여러페이지에서 공용으로 사용하는 컴포넌트 모아둠
+│   ├── plugins 
+│   ├── router --> 라우터 설정관리
+│   ├── store ---> ??
+│   ├── views ---> Vue 파일관리
+│   ├── app.vue ---> 최상위 vue 파일
+│   └── main.js --> vue 인스턴스를 새로 만들고 시작하는 부분, 전역으로 처리하는 부분은 여기서 처리
+├── package.json --> npm 의존성 모듈 목록 및 프로젝트 기본 설정 포함.
+└── README.md
+```
